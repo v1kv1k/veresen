@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Календарь Настроения - Veresen</title>
+    <title>Календар Настрою - Вересень</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title-animation">Veresen</h1>
+        <h1 class="title-animation">Вересень</h1>
         <div class="calendar">
             <div class="weekdays">
                 <div>Пн</div>
@@ -20,7 +20,7 @@
                 <div>Чт</div>
                 <div>Пт</div>
                 <div>Сб</div>
-                <div>Вс</div>
+                <div>Нд</div>
             </div>
             <div class="days" id="calendar-days"></div>
         </div>
@@ -28,18 +28,22 @@
 
     <div id="mood-dialog" class="dialog">
         <div class="dialog-content">
-            <h2 class="dialog-title">Выберите ваше настроение</h2>
+            <h2 class="dialog-title">Оберіть ваш настрій</h2>
             <div class="mood-options">
-                <button class="mood-btn happy" data-mood="Счастливый">😊 Счастливый</button>
-                <button class="mood-btn sad" data-mood="Грустный">😢 Грустный</button>
+                <button class="mood-btn happy" data-mood="Щасливий">😊 Щасливий</button>
+                <button class="mood-btn sad" data-mood="Сумний">😢 Сумний</button>
                 <button class="mood-btn smile" data-mood="Смайлик">😄 Смайлик</button>
-                <button class="mood-btn inspired" data-mood="Вдохновленный">✨ Вдохновленный</button>
-                <button class="mood-btn tired" data-mood="Усталый">😴 Усталый</button>
-                <button class="mood-btn excited" data-mood="Взволнованный">🎉 Взволнованный</button>
+                <button class="mood-btn inspired" data-mood="Натхненний">✨ Натхненний</button>
+                <button class="mood-btn tired" data-mood="Втомлений">😴 Втомлений</button>
+                <button class="mood-btn excited" data-mood="Схвильований">🎉 Схвильований</button>
             </div>
         </div>
     </div>
 
+    <footer>
+        <p>Автор: Анастасія Заяць</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
